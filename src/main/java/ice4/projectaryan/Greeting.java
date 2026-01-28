@@ -10,5 +10,13 @@ package ice4.projectaryan;
  * @author Aryan Puchimada, January 2026
  */
 public class Greeting {
-
+    private String message;
+    
+    public Greeting(String newMessage) {
+        this.message = newMessage;
+    }
+    
+    public void printGreeting() {
+        System.out.println(message);
+    }
 }
